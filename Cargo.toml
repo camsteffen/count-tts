@@ -1,0 +1,14 @@
+[package]
+name = "count_tts"
+version = "0.1.0"
+authors = ["Cameron Steffen <cam.steffen94@gmail.com>"]
+edition = "2018"
+description = "A simple macro for counting tokens."
+readme = "README.md"
+repository = "https://github.com/camsteffen/count-tts"
+license-file = "LICENSE"
+keywords = ["macro"]
+categories = ["rust-patterns"]
+
+[dev-dependencies]
+static_assertions = "1.1.0"
