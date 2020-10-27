@@ -1,0 +1,19 @@
+use count_tts::count_tts;
+use static_assertions::const_assert_eq;
+
+const_assert_eq!(count_tts!(), 0);
+const_assert_eq!(count_tts!(-), 1);
+const_assert_eq!(count_tts!(--), 2);
+const_assert_eq!(count_tts!(---), 3);
+const_assert_eq!(count_tts!(----), 4);
+const_assert_eq!(count_tts!(-----), 5);
+const_assert_eq!(count_tts!(------), 6);
+const_assert_eq!(count_tts!(-------), 7);
+const_assert_eq!(count_tts!(--------), 8);
+const_assert_eq!(count_tts!(---------), 9);
+const_assert_eq!(count_tts!(----------), 10);
+const_assert_eq!(count_tts!(-----------), 11);
+const_assert_eq!(count_tts!(------------), 12);
+const_assert_eq!(count_tts!(-------------), 13);
+const_assert_eq!(count_tts!(--------------), 14);
+const_assert_eq!(count_tts!(---------------), 15);
