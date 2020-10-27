@@ -4,10 +4,11 @@ version = "0.1.0"
 authors = ["Cameron Steffen <cam.steffen94@gmail.com>"]
 edition = "2018"
 description = "A simple macro for counting tokens."
+documentation = "https://docs.rs/count_tts"
 readme = "README.md"
 repository = "https://github.com/camsteffen/count-tts"
-license-file = "LICENSE"
-keywords = ["macro"]
+license = "MIT"
+keywords = ["macro", "count", "token"]
 categories = ["rust-patterns"]
 
 [lib]
